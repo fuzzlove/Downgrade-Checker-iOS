@@ -3,11 +3,9 @@ iOS Downgrade Party Checker
 
 UPDATE: Added new checks for jailbreaking availability along with checking for the last versions of the iOS and looking for any possibilities that an older release have been approved for downgrade.
 
-Credit due:
-Based off script from NathansTech revamped to make an alert and recheck in a loop as before with any downgrades possible.
+Credit due: Thanks n8 for sparking the idea 💡 - also cheers to those that were there for the old party!
 
-Note:
-There was some broken issues with the 9yr old script interacting with the API. Maybe this will be helpful someday.
+Note: The checker is currently being updated for realtime alerts that will notify you and a more verbose list of jailbreaks with up to date version numbers for reliable referencing.
 
 Downgrade Party Checker ✔
 
@@ -55,11 +53,15 @@ Python 3.x
 macOS (for native notifications via osascript)
 
 Usage
-python3 downgrade_checker.py
-Select the iPhone models you want to monitor
-Leave it running
-Get notified when a downgrade becomes available
-Data Source
+1. python3 downgrade_checker.py
+
+2. Select the iPhone models you want to monitor
+
+3. Leave it running
+
+4. Get notified when a downgrade becomes available
+
+Data Source:
 Firmware & signing status provided by IPSW.me API
 
 Disclaimer
