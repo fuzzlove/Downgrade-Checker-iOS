@@ -3,7 +3,11 @@ iOS Downgrade Party Checker
 
 UPDATE: Added new checks for jailbreaking availability along with checking for the last versions of the iOS and looking for any possibilities that an older release have been approved for downgrade.
 
-Credit due: Thanks n8 for sparking the idea 💡 - also cheers to those that were there for the old party!
+---
+Ackowledgement:    Thanks n8 for sparking the idea 💡 - also cheers to those that were there for the old party!
+     Credit to:         ProjectDiscovery for Notify (Just one of many cool tools)
+                           1Conan for tsschecker it made it easier to not rely on just ipsw.
+---
 
 Note: The checker is currently being updated for realtime alerts that will notify you and a more verbose list of jailbreaks with up to date version numbers for reliable referencing.
 
@@ -33,38 +37,37 @@ Smart tracking
 Only alerts you on new downgrade events — no spam.
 
 What is a “Downgrade Party”?
-
 A “downgrade party” happens when Apple temporarily signs multiple firmware versions at once, allowing devices to be restored to an older iOS version.
 
 These windows are usually:
+1. Short-lived
+2. Unpredictable
+3. Valuable for researchers, jailbreakers, and testers
 
-Short-lived
-Unpredictable
-Valuable for researchers, jailbreakers, and testers 🔬
+Use Cases:
+1. iOS security research
+2. Jailbreak window tracking
+3. Firmware testing & regression analysis
+4. Staying ahead of Apple signing changes
 
-Use Cases
-iOS security research
-Jailbreak window tracking
-Firmware testing & regression analysis
-Staying ahead of Apple signing changes
-
-Requirements
+Requirements:
 Python 3.x
 macOS (for native notifications via osascript)
 
-Usage
+For notifications:
+https://github.com/projectdiscovery/notify
+https://github.com/1Conan/tsschecker/releases
+
+Usage:
 1. python3 downgrade_checker.py
-
 2. Select the iPhone models you want to monitor
-
 3. Leave it running
-
 4. Get notified when a downgrade becomes available
+5. Update: Now available with a background daemon thats constantly looking for a potential downgrade party!
 
 Data Source:
-Firmware & signing status provided by IPSW.me API
+Firmware links provided by IPSW API, gs.apple.com used for proper validation.
 
-Disclaimer
-
+Disclaimer:
 This tool is for educational and research purposes only.
-Apple’s signing status can change at any time, and downgrades may still be limited by device-specific
+Apple Inc's signing status can change at any time, and downgrades may still be limited by device.
