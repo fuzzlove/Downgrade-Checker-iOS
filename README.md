@@ -3,11 +3,9 @@ iOS Downgrade Party Checker
 
 UPDATE: Added new checks for jailbreaking availability along with checking for the last versions of the iOS and looking for any possibilities that an older release have been approved for downgrade.
 
----
 Ackowledgement:    Thanks n8 for sparking the idea 💡 - also cheers to those that were there for the old party!
      Credit to:         ProjectDiscovery for Notify (Just one of many cool tools)
                            1Conan for tsschecker it made it easier to not rely on just ipsw.
----
 
 Note: The checker is currently being updated for realtime alerts that will notify you and a more verbose list of jailbreaks with up to date version numbers for reliable referencing.
 
