@@ -1,17 +1,15 @@
 # Downgrade-Checker-iOS
 iOS Downgrade Party Checker
 
-UPDATE: Added new checks for jailbreaking along with checking for the last versions of the iOS and looking for any possibilities that an older release have been approved for downgrade.
+UPDATE: Added new checks for jailbreaking availability along with checking for the last versions of the iOS and looking for any possibilities that an older release have been approved for downgrade.
 
-
-
+Credit due:
 Based off script from NathansTech revamped to make an alert and recheck in a loop as before with any downgrades possible.
 
+Note:
 There was some broken issues with the 9yr old script interacting with the API. Maybe this will be helpful someday.
 
-Here’s a strong GitHub repo description you can use (with a professional/security-tool tone):
-
-Downgrade Party Checker
+Downgrade Party Checker ✔
 
 A real-time iOS firmware monitoring tool that alerts you when Apple is signing older firmware versions — a.k.a. “downgrade parties.”
 
