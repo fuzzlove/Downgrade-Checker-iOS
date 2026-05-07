@@ -25,17 +25,17 @@ Safe secret setup examples:
   export DOWN_EMAIL_PASSWORD="xxx"
 
   export DOWN_EMAIL_FROM="xxx@gmail.com"
-  export DOWN_EMAIL_TO="xxx@mail.xxx"
+  export DOWN_EMAIL_TO="xxx@mail.lv"
 
   export DOWN_ENABLE_NOTIFY=1
   export DOWN_ENABLE_TWILIO=1
   export DOWN_ENABLE_EMAIL=1
   export DOWN_ENABLE_SMS_GATEWAY=1
 
-  export TWILIO_ACCOUNT_SID="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-  export TWILIO_AUTH_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-  export TWILIO_FROM="+5555555555"
-  export TWILIO_TO="+15555555555"
+  export TWILIO_ACCOUNT_SID="xxx"
+  export TWILIO_AUTH_TOKEN="xxx"
+  export TWILIO_FROM="+1xxx"
+  export TWILIO_TO="+1xxx"
 
 Examples:
   python3 down.py
